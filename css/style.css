@@ -4,9 +4,6 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
 */
-/* ==== Google font ==== */
-/*@import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);*/
-
 
 body {
     width: 100%;
@@ -80,8 +77,8 @@ img.img-responsive {
     font-family: 'Rajdhani', sans-serif;
     font-variant: small-caps;
     box-sizing:border-box;
-	border-bottom: 1px solid #eee;
-	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-bottom: 2px solid #eee;
+/*	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);*/
 	text-align: center;
 	margin: 0 auto;
 }
@@ -265,7 +262,7 @@ hr {
 }
 
 .section-heading {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .section-heading h2 {
@@ -728,6 +725,6 @@ footer {
 .btn-skin {
   color: #fff;
   background-color: #97c9bc;
-  border-color: #d43076;
+  border-color: #000;
 }
 
