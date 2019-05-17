@@ -78,7 +78,6 @@ img.img-responsive {
     font-variant: small-caps;
     box-sizing:border-box;
 	border-bottom: 2px solid #eee;
-/*	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);*/
 	text-align: center;
 	margin: 0 auto;
 }
@@ -126,6 +125,9 @@ img.img-responsive {
 	font-weight: 400;
 }
 
+.navbar-custom ul.nav li a:active {
+    color: #97c9bc;
+}
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -137,14 +139,17 @@ img.img-responsive {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
+
     background-color: rgba(255,255,255,.2);
 }
+/*
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
 }
+*/
 
 .navbar-toggle {
     padding: 4px 6px;
@@ -157,30 +162,6 @@ img.img-responsive {
     outline: 0;
 }
 
-
-/* loader */
-#preloader {
-    background: #ffffff;
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-
-
-#loaderInner {
-    background:#ffffff url(../img/spinner.gif) center center no-repeat;
-    height: 60px;
-    left: 50%;
-    margin: -50px 0 0 -50px;
-    position: absolute;
-    top: 50%;
-    width: 60px;
-}
 
 @keyframes boxSpin{
   0%{
@@ -239,6 +220,7 @@ img.img-responsive {
 /* misc */
 hr {
   margin-top: 10px;
+  color: #eee;
 }
 
 /* margins */
@@ -320,15 +302,6 @@ hr {
 
 }
 
-.intro .page-scroll {
-	text-align: center;
-}
-
-
-.intro .page-scroll a {
-	color: #fff;
-}
-
 .brand-heading {
     font-size: 40px;
 }
@@ -364,7 +337,7 @@ hr {
 ============================ */
 
 .icon .fa {
-	color: #fff;
+	color: #4c4a4a;
 }
 
 /* ==========================
@@ -469,6 +442,7 @@ footer {
 	text-align: center;
 	padding: 40px 0 30px;
     font-size: 14px;
+    border-top: 1px solid #000;
 
 }
 
@@ -492,15 +466,19 @@ Parallax
 ============================= */
 
 #separator {
-	background-color: #605f5f;
+	background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    border-top: 1px solid #000;
+
     }
 
 #separator .icon {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+
 }
 
 #separator span {
-	color: #fff;
+	color: #4c4a4a;
 }
 
 #separator:after {
