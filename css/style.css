@@ -255,7 +255,7 @@ hr {
 
 .home-section {
     padding-top: 65px;
-    padding-bottom: 110px;
+    padding-bottom: 80px;
 	display:block;
     position:relative;
     z-index:120;
@@ -467,7 +467,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 30px;
+	padding: 40px 0 30px;
+    font-size: 14px;
 
 }
 
@@ -491,8 +492,8 @@ Parallax
 ============================= */
 
 #separator {
-	background-image: url(../img/parallax-bg.jpg);
-}
+	background-color: #605f5f;
+    }
 
 #separator .icon {
 	margin-bottom: 20px;
@@ -503,7 +504,6 @@ Parallax
 }
 
 #separator:after {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -725,6 +725,7 @@ footer {
 .btn-skin {
   color: #fff;
   background-color: #97c9bc;
-  border-color: #000;
+/*  border-color: #000;*/
+  border: 1.5px solid #000;
 }
 
