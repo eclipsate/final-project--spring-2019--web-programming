@@ -305,7 +305,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/about.png) no-repeat top center;
+	background: url(../img/about.jpg) no-repeat top center;
 	background-size: cover;
 }
 
@@ -315,7 +315,8 @@ hr {
 
 .intro .slogan {
 	text-align: center;
-    margin-top: 160px;
+    margin-top: 200px;
+/*    width: 50%;*/
 
 }
 
