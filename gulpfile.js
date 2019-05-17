@@ -40,46 +40,46 @@ async function allBrowsers () {
 
 let validateHTML = () => {
     return src([
-        `./app/dev/*.html`,
-        `./app/dev/**/*.html`])
+        `./*.html`,
+        `./**/*.html`])
         .pipe(htmlValidator());
 };
 
 let compressHTML = () => {
-    return src([`./app/dev/*.html`,`./app/dev/**/*.html`])
+    return src([`./*.html`,`./**/*.html`])
         .pipe(htmlCompressor({collapseWhitespace: true}))
-        .pipe(dest(`./app/prod/html`));
+        .pipe(dest(`./compressedHTML/html`));
 };
 
 let compileCSSForDev = () => {
-    return src(`./app/dev/styles/style.scss`)
+    return src(`./sass/style.scss`)
         .pipe(sass({
             outputStyle: `expanded`,
             precision: 10
         }).on(`error`, sass.logError))
-        .pipe(dest(`./app/dev/css`));
+        .pipe(dest(`./css`));
 };
 
 let compileCSSForProd = () => {
-    return src(`./app/dev/styles/style.scss`)
+    return src(`./sass/style.scss`)
         .pipe(sass({
             outputStyle: `compressed`,
             precision: 10
         }).on(`error`, sass.logError))
-        .pipe(dest(`./app/prod/css`));
+        .pipe(dest(`./css`));
 };
 
 let transpileJSForDev = () => {
-    return src(`./app/dev/scripts/*.js`)
+    return src(`./js/*.js`)
         .pipe(babel())
-        .pipe(dest(`./app/dev/js`));
+        .pipe(dest(`./js`));
 };
 
 let transpileJSForProd = () => {
-    return src(`./app/dev/scripts/**/*.js`)
+    return src(`./js/**/*.js`)
         .pipe(babel())
         .pipe(jsCompressor())
-        .pipe(dest(`./app/prod/scripts`));
+        .pipe(dest(`./js`));
 
 };
 
@@ -91,22 +91,22 @@ let serve = () => {
         browser: browserChoice,
         server: {
             baseDir: [
-                `./app/dev/css`,
-                `./app/dev/js`,
-                `./app/dev`
+                `./css`,
+                `./js`,
+                `./`
             ]
         }
     });
 
-    watch(`./app/dev/scripts/**/*.js`,
+    watch(`./js/**/*.js`,
         series(transpileJSForDev)
     ).on(`change`, reload);
 
-    watch(`./app/dev/styles/**/*.scss`,
+    watch(`./sass/**/*.scss`,
         series(compileCSSForDev)
     ).on(`change`, reload);
 
-    watch(`./app/dev/**/*.html`,
+    watch(`./**/*.html`,
         series(validateHTML)
     ).on(`change`, reload);
 
