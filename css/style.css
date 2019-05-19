@@ -112,6 +112,7 @@ img.img-responsive {
 	text-align: center;
 }
 
+/*to style my name as logo*/
 .navbar-custom ul.nav li:first-child {
 	float: left;
     padding-right: 30px;
@@ -153,6 +154,7 @@ img.img-responsive {
 }
 
 
+/*
 @keyframes boxSpin{
   0%{
     transform: translate(-10px, 0px);
@@ -188,8 +190,10 @@ img.img-responsive {
   100%{
     box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
   }
+*/
 }
 
+/*
 #load {
 	z-index: 9999;
   background-color: #FF4136;
@@ -206,6 +210,7 @@ img.img-responsive {
   box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
   animation: shadowSpin 1s ease-in-out infinite;
 }
+*/
 
 /* misc */
 hr {
@@ -243,32 +248,10 @@ hr {
 	margin-bottom: 10px;
 	line-height: 1em;
 }
+
 .section-heading i {
 	margin-bottom: 20px;
 }
-
-
-/* --- section bg var --- */
-
-.bg-white {
-	background: #fff;
-}
-
-.bg-gray {
-	background: #f8f8f8;
-}
-
-
-.bg-dark {
-	background: #575757;
-}
-
-/* --- section color var --- */
-
-.text-light {
-	color: #fff;
-}
-
 
 
 /* ===========================
@@ -291,8 +274,6 @@ hr {
 .intro .slogan {
 	text-align: center;
     margin-top: 200px;
-/*    width: 50%;*/
-
 }
 
 .brand-heading {
@@ -301,27 +282,6 @@ hr {
 
 .intro-text {
     font-size: 18px;
-}
-
-.intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
-}
-
-.intro .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
 }
 
 
@@ -333,99 +293,6 @@ hr {
 	color: #4c4a4a;
 }
 
-/* ==========================
---- Gallery
-============================= */
-
-
-.item {
-    margin: 10px;
-}
-
-.item img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
-/* ===========================
---- Contact
-============================ */
-
-.form-wrapper {
-	background: #f9f9f9;
-	padding: 40px;
-	 border-radius: 6px;
-}
-
-
-form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	letter-spacing: 1px;
-	font-size: 16px;
-}
-form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 4px;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
-	font-size: 16px;
-	margin-bottom: 20px;
-	background: #fefefe;
-	color: #888;
-}
-
-form#contact-form input,form#contact-form select {
-	height: 40px;
-}
-
-form#contact-form button {
-	border-radius: 4px;
-	height: 40px;
-	text-transform: none;
-	font-size: 16px;
-	font-weight: 700;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-	background: #fff;
-}
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
 
 /* ===========================
 --- Footer
@@ -462,12 +329,10 @@ Parallax
 	background-color: #fff;
     background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
     border-top: 1px solid #000;
-
     }
 
 #separator .icon {
 	margin-bottom: 15px;
-
 }
 
 #separator span {
@@ -490,7 +355,6 @@ Parallax
 ============================ */
 
 .btn {
-
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 15px;
@@ -504,99 +368,6 @@ Parallax
 a.btn:hover {
 	color: #fff;
 }
-
-.btn-circle {
-    width: 70px;
-    height: 60px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle.btn-dark {
-    border: 2px solid #666;
-    color: #666;
-}
-
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-circle.btn-dark :hover,
-.btn-circle.btn-dark :focus {
-    outline: 0;
-    color: #999;
-    background: #fff;
-}
-
-.btn-circle.btn-dark :hover i,
-.btn-circle.btn-dark :focus i{
-    color: #999;
-}
-
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-@-webkit-keyframes pulse {
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
 
 .btn-skin:hover,
 .btn-skin:focus,
@@ -615,16 +386,6 @@ a.btn:hover {
     color: #000;
     background-color: #28c3ab;
 }
-
-.btn-huge {
-    padding: 25px;
-    font-size: 26px;
-}
-
-.banner-social-buttons {
-    margin-top: 0;
-}
-
 
 /* Media queries */
 
@@ -678,17 +439,8 @@ ul.nav li a:hover {
 	color: #97c9bc;
 }
 
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #97c9bc;
-}
-
 .bg-skin {
 	background: #97c9bc;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #97c9bc;
 }
 
 footer {
@@ -698,7 +450,6 @@ footer {
 .btn-skin {
   color: #fff;
   background-color: #97c9bc;
-/*  border-color: #000;*/
   border: 1.5px solid #000;
 }
 
