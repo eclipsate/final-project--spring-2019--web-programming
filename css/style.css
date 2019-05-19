@@ -37,6 +37,8 @@ h3 {
 font-size: 20px;
 padding-top: 10px;
 text-align: center;
+color: #000;
+
 }
 
 blockquote {
@@ -81,13 +83,10 @@ img.img-responsive {
 	background: #fff;
 	z-index: 9999;
 	width:100%;
-/*    font-family: 'Rajdhani', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     font-variant: small-caps;
     box-sizing:border-box;
-/*    font-size: 14px;*/
 	border-bottom: 2px solid #eee;
-/*	text-align: center;*/
 	margin: 0 auto;
 }
 
@@ -96,27 +95,7 @@ img.img-responsive {
     margin-bottom: 0;
 }
 
-/*
-.navbar-brand {
-    font-weight: 700;
-}
-*/
-
-
-/*
-.navbar-brand:focus {
-    outline: 0;
-}
-*/
-
-/*
-.nav.navbar-nav {
-    background-color: rgba(255,255,255,.6);
-}
-*/
-
 #menu .nav.navbar-bar {
-/*	text-align: center;*/
 	float: none;
 	margin: 0 auto;
 }
@@ -160,17 +139,6 @@ img.img-responsive {
 	font-weight: 400;
 }
 
-/*
-.navbar-custom ul.nav li:active {
-    color: #97c9bc;
-    border-top: 1px solid;
-}
-
-.navbar-custom ul.nav li a:active {
-    color: #97c9bc;
-    border-top: 1px solid;
-}
-*/
 
 .navbar-custom ul.nav li a:hover {
     color: #000;
@@ -178,44 +146,11 @@ img.img-responsive {
 }
 
 
-/*
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-*/
-
-/*
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-
-    background-color: rgba(255,255,255,.2);
-}
-*/
-/*
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-*/
-
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
     color: #fff;
 }
-
-/*
-.navbar-toggle:focus,
-.navbar-toggle:active {
-    outline: 0;
-}
-*/
 
 
 @keyframes boxSpin{
@@ -276,6 +211,7 @@ img.img-responsive {
 hr {
   margin-top: 10px;
   color: #eee;
+  width: 70%;
 }
 
 /* margins */
@@ -345,6 +281,7 @@ hr {
     height: 600px;
 	background: url(../img/about888.JPG) no-repeat top center;
 	background-size: cover;
+    margin-bottom: 10px;
 }
 
 #intro.intro {
