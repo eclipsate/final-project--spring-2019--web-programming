@@ -96,9 +96,11 @@ img.img-responsive {
     margin-bottom: 0;
 }
 
+/*
 .navbar-brand {
     font-weight: 700;
 }
+*/
 
 
 .navbar-brand:focus {
@@ -126,8 +128,25 @@ img.img-responsive {
 	display: inline-block;
 	text-align: center;
 }
+
+.navbar-custom ul.nav li:first-child {
+	float: left;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 30px !important;
+	display: inline-block;
+}
+
+.navbar-custom ul.nav li:first-child a{
+	font-size: 23px;
+	letter-spacing: 1px;
+    color: #444;
+/*	text-transform: uppercase;*/
+	font-weight: 400;
+}
+
 .navbar-custom ul.nav li a {
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 1px;
     color: #444;
 /*	text-transform: uppercase;*/
@@ -510,7 +529,8 @@ Parallax
 
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 18px;
+    line-height: 15px;
+    height: 40px;
     font-variant: small-caps;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
