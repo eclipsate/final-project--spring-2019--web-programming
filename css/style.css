@@ -74,11 +74,13 @@ img.img-responsive {
 	background: #fff;
 	z-index: 9999;
 	width:100%;
-    font-family: 'Rajdhani', sans-serif;
+/*    font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-variant: small-caps;
     box-sizing:border-box;
+/*    font-size: 14px;*/
 	border-bottom: 2px solid #eee;
-	text-align: center;
+/*	text-align: center;*/
 	margin: 0 auto;
 }
 
@@ -101,7 +103,7 @@ img.img-responsive {
 }
 
 #menu .nav.navbar-bar {
-	text-align: center;
+/*	text-align: center;*/
 	float: none;
 	margin: 0 auto;
 }
@@ -113,13 +115,13 @@ img.img-responsive {
 }
 .navbar-custom ul.nav li {
 	float: none;
-    padding-right: 90px;
+    padding-right: 30px;
 	display: inline-block;
 	text-align: center;
 }
 .navbar-custom ul.nav li a {
-	font-size: 23px;
-	letter-spacing: 2px;
+	font-size: 20px;
+	letter-spacing: 1px;
     color: #444;
 /*	text-transform: uppercase;*/
 	font-weight: 400;
