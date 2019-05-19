@@ -103,13 +103,17 @@ img.img-responsive {
 */
 
 
+/*
 .navbar-brand:focus {
     outline: 0;
 }
+*/
 
+/*
 .nav.navbar-nav {
     background-color: rgba(255,255,255,.6);
 }
+*/
 
 #menu .nav.navbar-bar {
 /*	text-align: center;*/
@@ -138,31 +142,51 @@ img.img-responsive {
 }
 
 .navbar-custom ul.nav li:first-child a{
-	font-size: 23px;
-	letter-spacing: 1px;
+	font-size: 21px;
+	letter-spacing: 2px;
     color: #444;
-/*	text-transform: uppercase;*/
 	font-weight: 400;
+}
+
+.navbar-custom ul.nav li:first-child a:hover{
+    color: #97c9bc;
+    background-color: #fff;
 }
 
 .navbar-custom ul.nav li a {
 	font-size: 18px;
 	letter-spacing: 1px;
-    color: #444;
-/*	text-transform: uppercase;*/
+    color: #97c9bc;
 	font-weight: 400;
+}
+
+/*
+.navbar-custom ul.nav li:active {
+    color: #97c9bc;
+    border-top: 1px solid;
 }
 
 .navbar-custom ul.nav li a:active {
     color: #97c9bc;
+    border-top: 1px solid;
+}
+*/
+
+.navbar-custom ul.nav li a:hover {
+    color: #000;
+    background-color: #fff;
 }
 
+
+/*
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
+*/
 
+/*
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
@@ -170,6 +194,7 @@ img.img-responsive {
 
     background-color: rgba(255,255,255,.2);
 }
+*/
 /*
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
@@ -185,10 +210,12 @@ img.img-responsive {
     color: #fff;
 }
 
+/*
 .navbar-toggle:focus,
 .navbar-toggle:active {
     outline: 0;
 }
+*/
 
 
 @keyframes boxSpin{
