@@ -502,6 +502,7 @@ Parallax
 
     font-weight: 400;
     letter-spacing: 2px;
+    line-height: 18px;
     font-variant: small-caps;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -514,7 +515,7 @@ a.btn:hover {
 
 .btn-circle {
     width: 70px;
-    height: 70px;
+    height: 60px;
     margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
