@@ -28,9 +28,10 @@ h4,
 h5,
 h6 {
     margin: 0 0 25px;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 400;
-    color: #444;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
 }
 
 h3 {
@@ -116,7 +117,8 @@ img.img-responsive {
 .navbar-custom ul.nav li:first-child {
 	float: left;
     padding-right: 30px;
-    font-weight: bold;
+    font-family: Raleway;
+/*    font-weight: 700;*/
     font-size: 30px !important;
 	display: inline-block;
 }
@@ -125,7 +127,7 @@ img.img-responsive {
 	font-size: 21px;
 	letter-spacing: 2px;
     color: #444;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .navbar-custom ul.nav li:first-child a:hover{
