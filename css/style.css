@@ -4,21 +4,20 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
 */
-
 body {
-    width: 100%;
-    height: 100%;
-	font-family: 'Nanum Gothic', sans-serif;
-	font-weight: 400;
-    color: #888;
-	font-size: 16px;
-	line-height: 1.6em;
-    background-color: #fff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  color: #888;
+  font-size: 16px;
+  line-height: 1.6em;
+  background-color: #fff;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 h1,
@@ -27,132 +26,128 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 25px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 500;
-    color: #000;
+  margin: 0 0 25px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #000;
 }
 
 h3 {
-font-size: 20px;
-padding-top: 10px;
-text-align: center;
-color: #000;
-
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: #000;
 }
 
 blockquote {
-	font-family: Georgia, arial, sans-serif;
-	color: #bbb;
-	font-size: 20px;
+  font-family: Georgia, arial, sans-serif;
+  color: #bbb;
+  font-size: 20px;
 }
 
 p {
-    margin: 0 0 20px;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 1.7em;
+  margin: 0 0 20px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.7em;
 }
 
 p.lead {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 a {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 a:hover,
 a:focus {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .light {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 img.img-responsive {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 /* ------- Navigation ------------ */
 #navigation {
-	background: #fff;
-	z-index: 9999;
-	width:100%;
-    font-family: 'Montserrat', sans-serif;
-    font-variant: small-caps;
-    box-sizing:border-box;
-	border-bottom: 2px solid #eee;
-	margin: 0 auto;
+  background: #fff;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+  box-sizing: border-box;
+  border-bottom: 2px solid #eee;
+  margin: 0 auto;
 }
 
-
 .navbar {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #menu .nav.navbar-bar {
-	float: none;
-	margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 
 .navbar-custom ul.nav {
-	text-align: center;
-	float: none;
-	margin: 0 auto;
+  text-align: center;
+  float: none;
+  margin: 0 auto;
 }
+
 .navbar-custom ul.nav li {
-	float: none;
-    padding-right: 30px;
-	display: inline-block;
-	text-align: center;
+  float: none;
+  padding-right: 30px;
+  display: inline-block;
+  text-align: center;
 }
 
 /*to style my name as logo*/
 .navbar-custom ul.nav li:first-child {
-	float: left;
-    padding-right: 30px;
-    font-family: Raleway;
-/*    font-weight: 700;*/
-    font-size: 30px !important;
-	display: inline-block;
+  float: left;
+  padding-right: 30px;
+  font-family: Raleway;
+  /*    font-weight: 700;*/
+  font-size: 30px !important;
+  display: inline-block;
 }
 
-.navbar-custom ul.nav li:first-child a{
-	font-size: 21px;
-	letter-spacing: 2px;
-    color: #444;
-	font-weight: 600;
+.navbar-custom ul.nav li:first-child a {
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: #444;
+  font-weight: 600;
 }
 
-.navbar-custom ul.nav li:first-child a:hover{
-    color: #97c9bc;
-    background-color: #fff;
+.navbar-custom ul.nav li:first-child a:hover {
+  color: #97c9bc;
+  background-color: #fff;
 }
 
 .navbar-custom ul.nav li a {
-	font-size: 18px;
-	letter-spacing: 1px;
-    color: #97c9bc;
-	font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #97c9bc;
+  font-weight: 400;
 }
-
 
 .navbar-custom ul.nav li a:hover {
-    color: #000;
-    background-color: #fff;
+  color: #000;
+  background-color: #fff;
 }
 
-
 .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 14px;
-    color: #fff;
+  padding: 4px 6px;
+  font-size: 14px;
+  color: #fff;
 }
 
 /* misc */
@@ -173,153 +168,161 @@ hr {
 }
 
 /* margins */
-.marginbot-0{margin-bottom:0 !important;}
-.marginbot-10{margin-bottom:10px !important;}
-.marginbot-20{margin-bottom:20px !important;}
-.marginbot-30{margin-bottom:30px !important;}
-.marginbot-40{margin-bottom:40px !important;}
-.marginbot-50{margin-bottom:50px !important;}
+.marginbot-0 {
+  margin-bottom: 0 !important;
+}
+
+.marginbot-10 {
+  margin-bottom: 10px !important;
+}
+
+.marginbot-20 {
+  margin-bottom: 20px !important;
+}
+
+.marginbot-30 {
+  margin-bottom: 30px !important;
+}
+
+.marginbot-40 {
+  margin-bottom: 40px !important;
+}
+
+.marginbot-50 {
+  margin-bottom: 50px !important;
+}
 
 /* ===========================
 --- General sections
 ============================ */
-
 .home-section {
-    padding-top: 65px;
-    padding-bottom: 80px;
-	display:block;
-    position:relative;
-    z-index:120;
+  padding-top: 65px;
+  padding-bottom: 80px;
+  display: block;
+  position: relative;
+  z-index: 120;
 }
 
 .section-heading {
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .section-heading h2 {
-	font-size: 37px;
-	margin-bottom: 10px;
-	line-height: 1em;
+  font-size: 37px;
+  margin-bottom: 10px;
+  line-height: 1em;
 }
 
 .section-heading i {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 /* ===========================
 --- Intro
 ============================ */
-
 .intro {
-	width:100%;
-	position:relative;
-    height: 600px;
-	background: url(../img/about888.JPG) no-repeat top center;
-	background-size: cover;
-    margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background: url(../img/about888.JPG) no-repeat top center;
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 #intro.intro {
-	padding:200px 0 150px 0;
+  padding: 200px 0 150px 0;
 }
 
 .intro .slogan {
-	text-align: center;
-    margin-top: 200px;
+  text-align: center;
+  margin-top: 200px;
 }
 
 .brand-heading {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .intro-text {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 
 /* ===========================
 --- About
 ============================ */
-
 .icon .fa {
-	color: #4c4a4a;
+  color: #4c4a4a;
 }
-
 
 /* ===========================
 --- Footer
 ============================ */
-
 footer {
-	text-align: center;
-	padding: 40px 0 30px;
-    font-size: 14px;
-    border-top: 1px solid #000;
-
+  text-align: center;
+  padding: 40px 0 30px;
+  font-size: 14px;
+  border-top: 1px solid #000;
 }
 
 footer p {
-	color: #f8f8f8;
+  color: #f8f8f8;
 }
 
 footer a {
-	color: #fff;
+  color: #fff;
 }
 
 footer a:hover {
-	color: #ccc;
+  color: #ccc;
 }
+
 .credits {
-    color: #fff;
+  color: #fff;
 }
 
 /* ==========================
 Parallax
 ============================= */
-
 #separator {
-	background-color: #fff;
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
-    border-top: 1px solid #000;
-    }
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  border-top: 1px solid #000;
+}
 
 #separator .icon {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #separator span {
-	color: #4c4a4a;
+  color: #4c4a4a;
 }
 
 #separator:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 /* ===========================
 --- Elements
 ============================ */
-
 .btn {
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 15px;
-    height: 40px;
-    font-variant: small-caps;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 15px;
+  height: 40px;
+  font-variant: small-caps;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 a.btn:hover {
-	color: #fff;
+  color: #fff;
 }
 
 .btn-skin:hover,
@@ -331,73 +334,62 @@ a.btn:hover {
   border-color: #666;
 }
 
-
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
-    outline: 0;
-    color: #000;
-    background-color: #28c3ab;
+  border: 1px solid #28c3ab;
+  outline: 0;
+  color: #000;
+  background-color: #28c3ab;
 }
 
 /* Media queries */
-
-@media (max-width:768px) {
-	.navbar-header .fa {
-		color: #666;
-	}
-
-	.col-xs-6 {
-		margin-bottom: 30px;
-	}
+@media (max-width: 768px) {
+  .navbar-header .fa {
+    color: #666;
+  }
+  .col-xs-6 {
+    margin-bottom: 30px;
+  }
 }
 
-@media (max-width:480px) {
-
-	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
-	}
-
-	.navbar.navbar-custom.navbar-fixed-top {
-		margin-bottom: 30px;
-	}
-
-
-	.page-scroll a {
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		font-size: 20px;
-	}
-
+@media (max-width: 480px) {
+  .navbar-custom .nav.navbar-nav {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .navbar.navbar-custom.navbar-fixed-top {
+    margin-bottom: 30px;
+  }
+  .page-scroll a {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
 }
-
 
 /*colors*/
-
-
-a,a:hover {
-	color: #97c9bc;
+a, a:hover {
+  color: #97c9bc;
 }
 
 .intro .page-scroll a:hover {
-	color: #97c9bc;
+  color: #97c9bc;
 }
 
-.icon:hover .fa{
-	color: #97c9bc;
+.icon:hover .fa {
+  color: #97c9bc;
 }
 
 ul.nav li a:hover {
-	color: #97c9bc;
+  color: #97c9bc;
 }
 
 .bg-skin {
-	background: #97c9bc;
+  background: #97c9bc;
 }
 
 footer {
-    background-color: #97c9bc;
+  background-color: #97c9bc;
 }
 
 .btn-skin {
@@ -405,4 +397,3 @@ footer {
   background-color: #97c9bc;
   border: 1.5px solid #000;
 }
-
